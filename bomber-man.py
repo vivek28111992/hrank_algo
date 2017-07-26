@@ -2,7 +2,6 @@ from copy import deepcopy
 
 r, c, n = map(int, input().split())
 
-
 def generate_new_map(old_map):
     new_map = deepcopy(full_map)
     for i in range(r):
@@ -40,3 +39,4 @@ elif n > 5 and n % 4 == 1:
     n = 5
 for row in time[n]:
     print("".join(row))
+    
