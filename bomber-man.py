@@ -39,4 +39,3 @@ elif n > 5 and n % 4 == 1:
     n = 5
 for row in time[n]:
     print("".join(row))
-    
